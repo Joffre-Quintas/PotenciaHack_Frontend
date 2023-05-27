@@ -1,12 +1,16 @@
-button {
+.button {
     padding: .5rem 1rem;
     border-radius: 1rem;
     border: none;
     box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.3);
-    width: 100px;
+    width: 100%;
     cursor: pointer;
 
     :hover {
         opacity: 0.9;
     }
+}
+.buttonTrilha{
+    // background-color: red;
+    margin-top: 0.5rem;
 }

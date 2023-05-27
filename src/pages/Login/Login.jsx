@@ -8,10 +8,6 @@ import { AiFillEyeInvisible } from 'react-icons/ai'
 import { useState } from "react";
 
 
-import React from "react";
-import Header from "../../components/header/Header";
-import { Link } from 'react-router-dom';
-
 export default function Login() {
     const [type, setType] = useState('password')
     const [form, setForm] = useState({
