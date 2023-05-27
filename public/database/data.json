@@ -1,0 +1,10 @@
+{
+    "event":[{   
+        "img":"../img/capture_hackathon.jpg",
+        "period": "19 e 20 de Agosto"
+    },
+    {
+        "img":"../img/hackathon_ex.jpg",
+        "period": "01 de Julho a 01 de Agosto"
+    }]
+}
