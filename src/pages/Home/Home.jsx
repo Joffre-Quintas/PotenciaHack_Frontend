@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import TrilhaCard from '../../components/trilhaCard/TrilhaCard'
 import img_redes from '../../imgs/redes.png'
 import img_design from '../../imgs/design.png'
@@ -9,16 +9,17 @@ import styles from './Home.module.scss'
 import Slide from '../../components/Slide/Slide';
 
 export default function Home() {
-  const events = [
-    {   
-        "img":"../../public/capture_hackathon.jpg",
-        "period": "19 e 20 de Agosto"
-    },
-    {
-        "img":"../../public/hackathon_ex.jpg",
-        "period": "01 de Julho a 01 de Agosto"
+  const [events, setEvents] = useState()
+
+  useEffect(()=>{
+    async function loadData() {
+      const arrayEvents = await fetch('../../../public/database/data.json')
+      const data = await arrayEvents.json()
+      setEvents(data.event)
     }
-]
+    loadData()
+  },[])
+
 
   return (
     <div className='container'>
@@ -46,11 +47,12 @@ export default function Home() {
       </div>
       <section>
         <h2>Cursos Online</h2>
-        <Slide array={events}/>
+        {events && <Slide array={events}/>}
+        
       </section>
       <section>
         <h2>Hackathons</h2>
-        <Slide array={events}/>
+        {events && <Slide array={events}/>}
       </section>
     </div>
   )
