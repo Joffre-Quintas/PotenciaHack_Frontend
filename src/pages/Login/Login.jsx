@@ -7,11 +7,8 @@ import { AiFillEyeInvisible } from 'react-icons/ai'
 import { Link } from 'react-router-dom';
 import { useState } from "react";
 
-<<<<<<< HEAD
-=======
 import imgGoogle from '../../assets/img/google.png'
 import imgFacebook from '../../assets/img/facebook.png'
->>>>>>> main
 
 export default function Login() {
     const [type, setType] = useState('password')
