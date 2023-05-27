@@ -1,10 +1,14 @@
-
+//Page
+import Login from './pages/Login/Login'; 
+//Scss
 import './App.scss'
 
 function App() {
   
   return (
-    <h1>Olá Mundo</h1>
+    <>
+      <Login/>
+    </>
   )
 }
 
