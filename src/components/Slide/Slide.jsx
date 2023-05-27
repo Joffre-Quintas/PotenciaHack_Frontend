@@ -7,19 +7,9 @@ import { AiOutlineRight } from 'react-icons/ai';
 
 export default function Slide(props) {
     const [count, setCount] = useState(0)
-    const events = [
-        {   
-            "img":"../../public/capture_hackathon.jpg",
-            "period": "19 e 20 de Agosto"
-        },
-        {
-            "img":"../../public/hackathon_ex.jpg",
-            "period": "01 de Julho a 01 de Agosto"
-        }
-    ]
 
     function leftSlide() {
-        if(count < events.length - 1) {
+        if(count < props.array.length - 1) {
             setCount(current => current + 1)
         }  
     }
@@ -34,8 +24,8 @@ export default function Slide(props) {
             <div className={style.slideShow}>
                 <AiOutlineLeft onClick={rightSlide}/>
                 <div className={style.containerImgs}>
-                    {events && <img src={events[count].img} className={style.imgs}></img>}
-                    <p>{events[count].period}</p>   
+                    {props.array && <img src={props.array[count].img} className={style.imgs}></img>}
+                    <p>{props.array[count].period}</p>   
                 </div>
                 <AiOutlineRight onClick={leftSlide}/>        
             </div>
