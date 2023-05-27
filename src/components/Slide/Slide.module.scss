@@ -1,0 +1,19 @@
+.slideShow {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    width: fit-content;
+    margin: 0 auto;
+
+    & .containerImgs {
+        width: 250px;
+        height: 150px;
+        & .imgs{
+            width: 250px;
+            height: 150px;
+        }
+    }
+    & .period {
+        width: fit-content;
+    }
+}

@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Cadastro from './components/cadastro/Cadastro';
 
 
+
 function App() {
 
   return (
