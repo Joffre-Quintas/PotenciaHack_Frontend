@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from "../../components/header/Header";
+import { Link } from "react-router-dom"
 
 export default function Cadastro() {
   const [formData, setFormData] = useState({
@@ -114,6 +115,9 @@ export default function Cadastro() {
           {errors.telefone && <p className="error">{errors.telefone}</p>}
         </div>
         <button type="submit">Cadastrar</button>
+        <Link to="/home">
+          <button>Home</button>
+        </Link>
       </form>
     </div>
   );
