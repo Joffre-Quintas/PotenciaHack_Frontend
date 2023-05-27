@@ -5,6 +5,7 @@ import img_design from '../../imgs/design.png'
 import img_programacao from '../../imgs/programacao.png'
 import img_negocios from '../../imgs/negocios.png'
 import styles from './Home.module.scss'
+import Header from '../../components/header/Header'
 
 import Slide from '../../components/Slide/Slide';
 
@@ -21,7 +22,9 @@ export default function Home() {
 ]
 
   return (
+
     <div className='container'>
+    <Header/>
       <div>
         <TrilhaCard
           titulo_trilha="Redes"
