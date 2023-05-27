@@ -12,13 +12,13 @@ function App() {
 
   return (
     <BrowserRouter>
-      <UserProvider>
+      {/* <UserProvider> */}
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
           <Route path="/home" element={<Home />} />
         </Routes>
-      </UserProvider>
+      {/* </UserProvider> */}
     </BrowserRouter>
 
   )

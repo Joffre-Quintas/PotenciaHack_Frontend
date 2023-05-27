@@ -8,10 +8,10 @@ function Header() {
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
-    const { isAuthenticated, user } = useUserAuthenticationContext();
-    if (!isAuthenticated) {
-        window.location.replace('http://localhost:5175/');
-    }
+    // const { isAuthenticated, user } = useUserAuthenticationContext();
+    // if (!isAuthenticated) {
+    //     window.location.replace('http://localhost:5175/');
+    // }
 
     return (
         <header className={style.header}>

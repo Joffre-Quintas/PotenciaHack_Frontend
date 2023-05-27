@@ -21,11 +21,11 @@ export default function Login() {
         password: ''
     })
 
-    function handleCallbackResponse(response) {
-        var userObject = jwt_decode(response.credential);
-        setUser(userObject)
+    // function handleCallbackResponse(response) {
+    //     var userObject = jwt_decode(response.credential);
+    //     setUser(userObject)
         
-    }
+    // }
 
     function handleSubmit(e) {
         e.preventDefault()
@@ -44,23 +44,23 @@ export default function Login() {
         })
     }
 
-    useEffect(() => {
-        google.accounts.id.initialize({
-            client_id: (import.meta.env.VITE_GOOGLE_CLIENT_ID),
-            callback: handleCallbackResponse
-        });
-        //
-        google.accounts.id.renderButton(
-            document.getElementById('google'),
-            {
-                theme: 'outline',
-                size: 'large',
-                shape: "retangle",
-                width: 266,
-            }
-        );
+    // useEffect(() => {
+    //     google.accounts.id.initialize({
+    //         client_id: (import.meta.env.VITE_GOOGLE_CLIENT_ID),
+    //         callback: handleCallbackResponse
+    //     });
+    //     //
+    //     google.accounts.id.renderButton(
+    //         document.getElementById('google'),
+    //         {
+    //             theme: 'outline',
+    //             size: 'large',
+    //             shape: "retangle",
+    //             width: 266,
+    //         }
+    //     );
 
-    }, [])
+    // }, [])
 
     return (
         <div className='container'>

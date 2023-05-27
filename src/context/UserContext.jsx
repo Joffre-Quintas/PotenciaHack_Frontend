@@ -9,23 +9,23 @@ export function UserProvider({ children }) {
     const navigate = useNavigate();
 
 
-    const isAuthenticated = !!user; //!! => transformando a variável em um booleano
+    // const isAuthenticated = !!user; //!! => transformando a variável em um booleano
 
     
-    useEffect(() => {
-        if (isAuthenticated) {
-            console.log(`Usuário autenticado`)
-            navigate('/home')
+    // useEffect(() => {
+    //     if (isAuthenticated) {
+    //         console.log(`Usuário autenticado`)
+    //         navigate('/home')
     
         
-        }
-    }, [isAuthenticated]);
+    //     }
+    // }, [isAuthenticated]);
 
-    return (
-        <UserContext.Provider value={{user,setUser,isAuthenticated}}>
-            {children}
-        </UserContext.Provider>
-    );
+    // return (
+    //     <UserContext.Provider value={{user,setUser,isAuthenticated}}>
+    //         {children}
+    //     </UserContext.Provider>
+    // );
 }
 
 export const useUserAuthenticationContext = () => useContext(UserContext);
