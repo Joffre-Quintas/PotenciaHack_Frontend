@@ -33,8 +33,8 @@ export default function Login() {
             }
         })
     }
-
-
+    return (
+        <div className='container'>
             <form className={style.formLogin}>
                 <h1>Login</h1>
                 <Input label='Usuário' type='text' name='user' id='user' onChange={(e) => handleUpdateInput(e)}/>
