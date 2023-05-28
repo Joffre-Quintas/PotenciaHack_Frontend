@@ -48,16 +48,16 @@ export default function Home() {
         </div>
       </section>
       <section className='container'>
-      <h2 className={style.title}>Próximos Eventos</h2>
-      <h3 className={style.subtitle}>Cursos Online</h3>
+      <h2 className='title'>Próximos Eventos</h2>
+      <h3 className='subtitle'>Cursos Online</h3>
       {/* {courses && <Slide array={courses}/>} */}
       </section>
       <section className='container'>
-        <h3 className={style.subtitle}>Hackahtos</h3>
+        <h3 className='subtitle'>Hackahtos</h3>
         {events && <Slide array={events}/>}        
       </section>
       <div className='container'>
-        <h2 className={style.title}>Trilhas</h2>
+        <h2 className='title'>Trilhas</h2>
         {limitedCourses.map((course, index) => (
           <TrilhaCard
             key={index} 
@@ -69,7 +69,7 @@ export default function Home() {
         <button className={style.btnCenter}><Link to='/allcourses'>Ver todos os cursos</Link></button>
       </div>
       <section>
-        <h2>Como funciona</h2>
+        <h2 className='title'>Como funciona</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio perspiciatis dolore ratione consectetur voluptatum eum architecto dolorem, quaerat odit, dolorum iusto vitae est ad, pariatur iste. Possimus laborum eaque pariatur mollitia voluptates praesentium eos, maxime fuga aut velit alias placeat dicta numquam aperiam, atque quam est! Molestias, itaque perspiciatis!</p>
         <button className={style.btnCenter}>Saiba mais</button>
       </section>
