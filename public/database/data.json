@@ -38,6 +38,7 @@
             "title": "Redes",
             "img": "../img/courses/redes.png",
             "description": "Este curso de redes foi montado pensando em trazer um entendimento prático de como montar uma rede local ou uma estrutura para empresas de pequeno porte. O objetivo é colocar rapidamente profissionais capacitados no mercado de trabalho de forma rápida. Mas se você não quer atuar na área mas é um curioso, também não tem problema, ele foi construído com uma linguagem simples, dinâmica e atual.",
+            "short":"Este curso trás um entendimento prático de como montar uma rede local ou uma estrutura para empresas de pequeno porte.",
             "modules":[
                 "Você sabe o que é um roteador?",
                 "O que seria uma internet ponto a ponto?",
@@ -53,9 +54,10 @@
             "flag": "Não necessita de computador"
         },
         {
-            "title": "Frontend Javascript",
-            "img": "",
+            "title": "Frontend JS",
+            "img": "../img/redes.png",
             "description": "Este curso de Frontend foi desenvolvido para proporcionar aos estudantes uma compreensão prática das habilidades necessárias para criar interfaces de usuário atraentes e funcionais. O objetivo é capacitar os participantes a construir sites interativos e responsivos, utilizando as mais recentes tecnologias front-end. Se você é um entusiasta da web ou aspirante a desenvolvedor, este curso foi projetado para fornecer uma introdução clara e acessível ao mundo do Frontend.",
+            "short":"Este curso proporciona uma compreensão prática das habilidades necessárias para criar interfaces de usuário atraentes e funcionais.",
             "modules": [
                 "Introdução ao HTML",
                 "Estilizando com CSS",
@@ -71,9 +73,10 @@
             "flag": "Necessita de computador"
         },
         {
-            "title": "Backend Javascript",
+            "title": "Backend JS",
             "img": "../img/courses/backend.png",
             "description": "Este curso de Backend foi projetado para fornecer aos alunos um conhecimento prático sobre o desenvolvimento de servidores e a lógica por trás das aplicações web. O objetivo é capacitar os participantes a criar e gerenciar a parte do servidor de um site ou aplicativo, lidando com bancos de dados, segurança e escalabilidade. Se você é um aspirante a desenvolvedor web ou deseja aprimorar suas habilidades no lado do servidor, este curso oferece uma introdução completa ao mundo do Backend.",
+            "short":"Este curso fornece um conhecimento prático sobre o desenvolvimento de servidores e a lógica por trás das aplicações web.",
             "modules": [
                 "Introdução aos servidores web",
                 "Linguagens de programação para o Backend",
@@ -92,6 +95,7 @@
             "title": "Adobe Illustrator",
             "img": "../img/courses/illustrator.png",
             "description": "Este curso de Adobe Illustrator é projetado para ensinar aos participantes as habilidades essenciais para criar gráficos vetoriais escaláveis e ilustrações profissionais. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos poderosos do Adobe Illustrator para criar designs visualmente atraentes para impressão e mídia digital. Se você é um designer gráfico, ilustrador ou alguém interessado em manipular imagens e criar arte digital, este curso oferece um guia abrangente sobre o Adobe Illustrator.",
+            "short": "Este curso ensina aos participantes as habilidades essenciais para criar gráficos vetoriais escaláveis.",
             "modules": [
                 "Introdução ao Adobe Illustrator",
                 "Explorando as ferramentas e painéis",
