@@ -6,5 +6,8 @@
     {
         "img":"../img/hackathon_ex.jpg",
         "period": "01 de Julho a 01 de Agosto"
-    }]
+    }],
+    "images":[
+        "../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg"
+    ]
 }
