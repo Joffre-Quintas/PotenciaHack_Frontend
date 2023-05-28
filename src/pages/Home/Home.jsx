@@ -50,7 +50,8 @@ export default function Home() {
       <section className='container'>
       <h2 className='title'>Próximos Eventos</h2>
       <h3 className='subtitle'>Cursos Online</h3>
-      {/* {courses && <Slide array={courses}/>} */}
+      {events && <Slide array={events}/>}
+      
       </section>
       <section className='container'>
         <h3 className='subtitle'>Hackahtos</h3>
