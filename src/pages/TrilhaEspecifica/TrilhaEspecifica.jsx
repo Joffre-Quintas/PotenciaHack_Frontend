@@ -53,7 +53,7 @@ export default function TrilhaEspecifica() {
                         <h4>{course.profTexto}</h4>
                     </div>
                 </section>
-                <Button estilo="buttonPerfil" title="Inscreva-se" />
+                <Button estilo="buttonIncrevase" title="Inscreva-se" />
             </div>
         </div>
     );
