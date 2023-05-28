@@ -1,6 +1,5 @@
 import style from './Login.module.scss';
 
-import Button from "../../components/Button/Button";
 import Input from '../../components/Input/Input';
 import { AiFillEye } from 'react-icons/ai'
 import { AiFillEyeInvisible } from 'react-icons/ai'
@@ -64,8 +63,6 @@ export default function Login() {
 
     return (
         <div className='container'>
-            {/* <Header/> */}
-
             <form className={style.formLogin}>
                 <h1>Login</h1>
                 <Input label='Usuário' type='text' name='user' id='user' onChange={(e) => handleUpdateInput(e)} />
@@ -75,21 +72,22 @@ export default function Login() {
                     {type == 'password' ? <AiFillEyeInvisible onClick={() => setType
                         ('text')} /> : <AiFillEye onClick={() => setType('password')} />}
                 </div>
+                <div className={style.actions}>
+                    <button style={{width: '100%'}} className='btnVariable' onClick={(e) => handleSubmit(e)}>Entrar</button>
+                </div>
                 <div className={style.haventLogin}>
                     <p>Ainda não possui cadastro? <span>Clique aqui</span></p>
-                </div>
-                <div className={style.actions}>
-                    <Button title="Entrar" onClick={(e) => handleSubmit(e)}></Button>
                 </div>
             </form>
             <div className={style.loginAPI}>
                 <p>Ou entre com as redes sociais:</p>
                 <div>
-                    <div id="google"></div>
+                    {/* <div id="google"></div> */}
+                    <img src={imgGoogle} alt="icon Google" />
                     <img src={imgFacebook} alt="icon Facebook" />
-                    <Link to="/testeperfil">
+                    {/* <Link to="/testeperfil">
                         <button>Teste Perfil</button>
-                    </Link>
+                    </Link> */}
                 </div>
             </div>
         </div>

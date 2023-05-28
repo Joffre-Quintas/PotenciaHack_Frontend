@@ -13,7 +13,7 @@ export default function TrilhaCard(props) {
         <h1>{props.titulo_trilha}</h1>
         <p>{props.paragrafo_trilha}</p>
         <Link to={`/trilhaespecifica/${props.id}`}>
-          <Button estilo="buttonIncrevase" title="Inscreva-se"/>
+          <button className='btnVariableCuverd'>Saiba Mais</button>
         </Link>
       </div>
     </div>

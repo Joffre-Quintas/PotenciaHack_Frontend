@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import { FaBars } from "react-icons/fa";
 import { useUserAuthenticationContext } from "../../context/UserContext";
 import style from './Header.module.scss'
 import Logo from '../../assets/img/logo.png';
+
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +18,7 @@ function Header() {
 
     return (
         <header className={style.header}>
-          <div><img src={Logo} alt="logo" /></div>
+          <div><Link to={'/'}><img src={Logo} alt="logo" /></Link></div>
           {/* <div>
             {user && (
               <div className={style.user}>
