@@ -36,7 +36,7 @@
         {
             "id": 1,
             "title": "Redes",
-            "img": " ",
+            "img": "../img/courses/redes.png",
             "description": "Este curso de redes foi montado pensando em trazer um entendimento prático de como montar uma rede local ou uma estrutura para empresas de pequeno porte. O objetivo é colocar rapidamente profissionais capacitados no mercado de trabalho de forma rápida. Mas se você não quer atuar na área mas é um curioso, também não tem problema, ele foi construído com uma linguagem simples, dinâmica e atual.",
             "modules":[
                 "Você sabe o que é um roteador?",
@@ -72,7 +72,7 @@
         },
         {
             "title": "Backend Javascript",
-            "img": "",
+            "img": "../img/courses/backend.png",
             "description": "Este curso de Backend foi projetado para fornecer aos alunos um conhecimento prático sobre o desenvolvimento de servidores e a lógica por trás das aplicações web. O objetivo é capacitar os participantes a criar e gerenciar a parte do servidor de um site ou aplicativo, lidando com bancos de dados, segurança e escalabilidade. Se você é um aspirante a desenvolvedor web ou deseja aprimorar suas habilidades no lado do servidor, este curso oferece uma introdução completa ao mundo do Backend.",
             "modules": [
                 "Introdução aos servidores web",
@@ -90,7 +90,7 @@
         },
         {
             "title": "Adobe Illustrator",
-            "img": "",
+            "img": "../img/courses/illustrator.png",
             "description": "Este curso de Adobe Illustrator é projetado para ensinar aos participantes as habilidades essenciais para criar gráficos vetoriais escaláveis e ilustrações profissionais. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos poderosos do Adobe Illustrator para criar designs visualmente atraentes para impressão e mídia digital. Se você é um designer gráfico, ilustrador ou alguém interessado em manipular imagens e criar arte digital, este curso oferece um guia abrangente sobre o Adobe Illustrator.",
             "modules": [
                 "Introdução ao Adobe Illustrator",
@@ -108,7 +108,7 @@
         },
         {
             "title": "Adobe Premiere",
-            "img": "",
+            "img": "../img/courses/premeire.png",
             "description": "Este curso de Adobe Premiere é projetado para ensinar aos participantes as habilidades essenciais para edição de vídeo profissional. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos avançados do Adobe Premiere para criar vídeos de alta qualidade com efeitos visuais, transições suaves e trilhas sonoras impactantes. Se você é um aspirante a editor de vídeo, cineasta ou entusiasta de produção de conteúdo audiovisual, este curso oferece um guia completo sobre o Adobe Premiere.",
             "modules": [
                 "Introdução ao Adobe Premiere",
@@ -196,7 +196,7 @@
         },
         {
             "title": "E-commerce",
-            "img": "",
+            "img": "../img/courses/ecommerce.png",
             "description": "Este curso de E-commerce foi desenvolvido para capacitar os participantes a criar, gerenciar e promover negócios online de sucesso. O objetivo é fornecer uma compreensão abrangente do funcionamento do comércio eletrônico, desde a seleção de produtos até a entrega aos clientes. Se você é um empreendedor, varejista ou alguém interessado em iniciar ou aprimorar um negócio online, este curso oferece um guia completo sobre o E-commerce.",
             "modules": [
                 "Introdução ao E-commerce",

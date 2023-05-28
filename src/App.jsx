@@ -9,6 +9,7 @@ import TestePerfil from './pages/TestePerfil/TestePerfil';
 import TestePerfilRadio from './pages/TestePerfilRadio/TestePerfilRadio';
 import StudentHome from './pages/StudentHome/StudentHome';
 import TesteResultado from './pages/TesteResultado/TesteResultado';
+import AllCourses from './pages/AllCourses/AllCourses';
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
+          <Route path='/allcourses' element={<AllCourses/>}/>
           <Route path="/student/:id" element={<StudentHome/>} />
           <Route path="/testeperfil" element={<TestePerfil />} />
           <Route path="/testeresultado" element={<TesteResultado />} />
