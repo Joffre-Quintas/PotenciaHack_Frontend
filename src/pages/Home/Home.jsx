@@ -37,11 +37,6 @@ export default function Home() {
   const limitedCourses = courses.slice(0, 5);
 
   return (
-
-    <div className='container'>
-      <div>
-        {limitedCourses.map((course) => (
-
     <div>
       <section className={style.firstSection}>
         <div className='container'>
@@ -64,7 +59,6 @@ export default function Home() {
       <div className='container'>
         <h2 className='title'>Trilhas</h2>
         {limitedCourses.map((course, index) => (
-
           <TrilhaCard
             key={course.id}
             titulo_trilha={course.title}
@@ -82,4 +76,5 @@ export default function Home() {
       </section>
     </div>
   );
-}  
+  
+}

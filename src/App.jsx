@@ -15,15 +15,13 @@ import TrilhaEspecifica from './pages/TrilhaEspecifica/TrilhaEspecifica';
 
 
 function App() {
-  const currentPath = window.location.pathname;
-
-  const shouldRenderHeader = currentPath !== '/login' && currentPath !== '/cadastro';
+  
 
   return (
     <BrowserRouter>
 
       {/* <UserProvider> */}
-      {shouldRenderHeader && <Header />}
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
