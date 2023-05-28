@@ -10,20 +10,22 @@ import StudentHome from './pages/StudentHome/StudentHome';
 
 
 function App() {
+  const currentPath = window.location.pathname;
+
+  const shouldRenderHeader = currentPath !== '/login' && currentPath !== '/cadastro';
 
   return (
     <BrowserRouter>
       {/* <UserProvider> */}
+      {shouldRenderHeader && <Header />}
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
           <Route path="/cadastro" element={<Cadastro />} />
-          <Route path="/home" element={<Home />} />
           <Route path="/student" element={<StudentHome/>} />
         </Routes>
       {/* </UserProvider> */}
     </BrowserRouter>
-
-  )
+  );
 }
-
-export default App
+export default App;
