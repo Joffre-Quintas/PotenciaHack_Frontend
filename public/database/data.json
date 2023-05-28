@@ -55,7 +55,7 @@
         {
             "id": 1,
             "title": "Redes",
-            "img": "../img/courses/redes.png",
+            "img": "../img/redes.png",
             "imgMaior": "../img/coursesMaior/redesMaior.png",
             "imgProf": "../img/thais.png",
             "prof": "Thais Quinzani",
@@ -80,7 +80,7 @@
         {
             "id": 2,
             "title": "Frontend JS",
-            "img": "../img/redes.png",
+            "img": "../img/programacao.png",
             "imgMaior": "../img/coursesMaior/frontendMaior.png",
             "imgProf": "../img/ysabella.png",
             "prof": "Ysabella Cristina",
@@ -105,7 +105,7 @@
         {
             "id": 3,
             "title": "Backend JS",
-            "img": "../img/courses/backend.png",
+            "img": "../img/back.png",
             "imgMaior": "../img/coursesMaior/backendMaior.png",
             "imgProf": "../img/joffre.png",
             "prof": "Joffre Quintas",
@@ -130,7 +130,7 @@
         {
             "id": 4,
             "title": "Adobe Illustrator",
-            "img": "../img/courses/illustrator.png",
+            "img": "../img/adobeilustrator.png",
             "imgMaior": "../img/coursesMaior/adobeilustratorMaior.png",
             "imgProf": "../img/pedro.png",
             "prof": "Pedro Alexandre",
@@ -155,12 +155,13 @@
         {
             "id": 5,
             "title": "Adobe Premiere",
-            "img": "../img/courses/premiere.png",
+            "img": "../img/adobepremier.png",
             "imgMaior": "../img/coursesMaior/premiereMaior.png",
             "imgProf": "../img/maria.png",
             "prof": "Maria Santiellas",
             "profTitulo": "Gerente de Projetos",
             "profTexto": "Já trabalhou no iFood e em várias Startups. Também tem experiência criação de produtos e genrência de projetos.",
+            "short": "Este curso ensina aos participantes as habilidades essenciais para criar gráficos vetoriais escaláveis.",
             "description": "Este curso de Adobe Premiere é projetado para ensinar aos participantes as habilidades essenciais para edição de vídeo profissional. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos avançados do Adobe Premiere para criar vídeos de alta qualidade com efeitos visuais, transições suaves e trilhas sonoras impactantes. Se você é um aspirante a editor de vídeo, cineasta ou entusiasta de produção de conteúdo audiovisual, este curso oferece um guia completo sobre o Adobe Premiere.",
             "modules": [
                 "Introdução ao Adobe Premiere",
