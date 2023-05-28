@@ -19,20 +19,21 @@ export default function Home() {
     loadData();
   }, []);
 
-  const limitedCourses = courses.slice(0, 4);
+  const limitedCourses = courses.slice(0, 5);
 
   return (
     <div className='container'>
       <div>
-        {limitedCourses.map((course, index) => (
+        {limitedCourses.map((course) => (
           <TrilhaCard
-            key={index} 
+            key={course.id}
             titulo_trilha={course.title}
             paragrafo_trilha={course.short}
             imagem={course.img}
+            id={course.id}
           />
         ))}
       </div>
     </div>
   );
-}
+}  
