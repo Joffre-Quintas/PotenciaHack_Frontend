@@ -1,0 +1,39 @@
+.sectionPrincipal{
+    display: flex;
+    flex-direction: column;
+    
+    h1,h3{
+        margin: 1rem 0;
+    }
+    
+    h4{
+        margin-bottom: 1rem;
+        font-weight: 100;
+    }
+    ul{
+        margin-bottom: 1.5rem;
+        li{
+            margin-left: 1.2rem;
+            margin: 0 0 0.5rem 1.2rem; 
+        }
+    }
+}
+
+.prof{
+    display: flex;
+    align-items: center;
+    img{
+        border-radius: 50%;
+        width: 140px;
+        height: 140px;
+        margin-right: 10px;
+    
+    }
+    
+    h4{
+        width: 200px;
+    }
+    p{
+        margin-bottom: 0.5rem;
+    }
+}

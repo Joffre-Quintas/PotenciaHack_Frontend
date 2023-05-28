@@ -1,16 +1,35 @@
 {
-    "event":[{   
-        "img":"../img/capture_hackathon.jpg",
-        "period": "19 e 20 de Agosto"
-    },
-    {
-        "img":"../img/hackathon_ex.jpg",
-        "period": "01 de Julho a 01 de Agosto"
-    }],
-    "images":[
-        "../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg"
+    "event": [
+        {
+            "img": "../img/capture_hackathon.jpg",
+            "period": "19 e 20 de Agosto"
+        },
+        {
+            "img": "../img/hackathon_ex.jpg",
+            "period": "01 de Julho a 01 de Agosto"
+        }
     ],
-    "users":[
+    "images": [
+        "../img/capture_hackathon.jpg",
+        "../img/hackathon_ex.jpg",
+        "../img/capture_hackathon.jpg",
+        "../img/hackathon_ex.jpg",
+        "../img/capture_hackathon.jpg",
+        "../img/hackathon_ex.jpg",
+        "../img/capture_hackathon.jpg",
+        "../img/hackathon_ex.jpg",
+        "../img/capture_hackathon.jpg",
+        "../img/hackathon_ex.jpg",
+        "../img/capture_hackathon.jpg",
+        "../img/hackathon_ex.jpg",
+        "../img/capture_hackathon.jpg",
+        "../img/hackathon_ex.jpg",
+        "../img/capture_hackathon.jpg",
+        "../img/hackathon_ex.jpg",
+        "../img/capture_hackathon.jpg",
+        "../img/hackathon_ex.jpg"
+    ],
+    "users": [
         {
             "id": 1,
             "name": "Joffre Quintas"
@@ -37,9 +56,14 @@
             "id": 1,
             "title": "Redes",
             "img": "../img/courses/redes.png",
+            "imgMaior": "../img/coursesMaior/redesMaior.png",
+            "imgProf": "../img/thais.png",
+            "prof": "Thais Quinzani",
+            "profTitulo": "UX Designer",
+            "profTexto": "Já trabalhou no iFood e em várias Startups. Também tem experiência com UX e UI e entende MUITO de Design.",
             "description": "Este curso de redes foi montado pensando em trazer um entendimento prático de como montar uma rede local ou uma estrutura para empresas de pequeno porte. O objetivo é colocar rapidamente profissionais capacitados no mercado de trabalho de forma rápida. Mas se você não quer atuar na área mas é um curioso, também não tem problema, ele foi construído com uma linguagem simples, dinâmica e atual.",
-            "short":"Este curso trás um entendimento prático de como montar uma rede local ou uma estrutura para empresas de pequeno porte.",
-            "modules":[
+            "short": "Este curso trás um entendimento prático de como montar uma rede local ou uma estrutura para empresas de pequeno porte.",
+            "modules": [
                 "Você sabe o que é um roteador?",
                 "O que seria uma internet ponto a ponto?",
                 "Aprendendo a montar um cabo coaxial",
@@ -54,10 +78,16 @@
             "flag": "Não necessita de computador"
         },
         {
+            "id": 2,
             "title": "Frontend JS",
             "img": "../img/redes.png",
+            "imgMaior": "../img/coursesMaior/frontendMaior.png",
+            "imgProf": "../img/ysabella.png",
+            "prof": "Ysabella Cristina",
+            "profTitulo": "Dev FrontEnd",
+            "profTexto": "Já trabalhou no iFood e em várias Startups. Também tem experiência com Robótica e entende MUITO de Lógica da programação.",
             "description": "Este curso de Frontend foi desenvolvido para proporcionar aos estudantes uma compreensão prática das habilidades necessárias para criar interfaces de usuário atraentes e funcionais. O objetivo é capacitar os participantes a construir sites interativos e responsivos, utilizando as mais recentes tecnologias front-end. Se você é um entusiasta da web ou aspirante a desenvolvedor, este curso foi projetado para fornecer uma introdução clara e acessível ao mundo do Frontend.",
-            "short":"Este curso proporciona uma compreensão prática das habilidades necessárias para criar interfaces de usuário atraentes e funcionais.",
+            "short": "Este curso proporciona uma compreensão prática das habilidades necessárias para criar interfaces de usuário atraentes e funcionais.",
             "modules": [
                 "Introdução ao HTML",
                 "Estilizando com CSS",
@@ -73,10 +103,16 @@
             "flag": "Necessita de computador"
         },
         {
+            "id": 3,
             "title": "Backend JS",
             "img": "../img/courses/backend.png",
+            "imgMaior": "../img/coursesMaior/backendMaior.png",
+            "imgProf": "../img/joffre.png",
+            "prof": "Joffre Quintas",
+            "profTitulo": "Dev BackEnd",
+            "profTexto": "Já trabalhou no iFood e em várias Startups. Também tem experiência com Robótica e entende MUITO de Lógica da programação.",
             "description": "Este curso de Backend foi projetado para fornecer aos alunos um conhecimento prático sobre o desenvolvimento de servidores e a lógica por trás das aplicações web. O objetivo é capacitar os participantes a criar e gerenciar a parte do servidor de um site ou aplicativo, lidando com bancos de dados, segurança e escalabilidade. Se você é um aspirante a desenvolvedor web ou deseja aprimorar suas habilidades no lado do servidor, este curso oferece uma introdução completa ao mundo do Backend.",
-            "short":"Este curso fornece um conhecimento prático sobre o desenvolvimento de servidores e a lógica por trás das aplicações web.",
+            "short": "Este curso fornece um conhecimento prático sobre o desenvolvimento de servidores e a lógica por trás das aplicações web.",
             "modules": [
                 "Introdução aos servidores web",
                 "Linguagens de programação para o Backend",
@@ -92,8 +128,14 @@
             "flag": "Necessita de computador"
         },
         {
+            "id": 4,
             "title": "Adobe Illustrator",
             "img": "../img/courses/illustrator.png",
+            "imgMaior": "../img/coursesMaior/adobeilustratorMaior.png",
+            "imgProf": "../img/pedro.png",
+            "prof": "Pedro Alexandre",
+            "profTitulo": "UX Designer",
+            "profTexto": "Já trabalhou no iFood e em várias Startups. Também tem experiência com UX e UI e entende MUITO de Design.",
             "description": "Este curso de Adobe Illustrator é projetado para ensinar aos participantes as habilidades essenciais para criar gráficos vetoriais escaláveis e ilustrações profissionais. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos poderosos do Adobe Illustrator para criar designs visualmente atraentes para impressão e mídia digital. Se você é um designer gráfico, ilustrador ou alguém interessado em manipular imagens e criar arte digital, este curso oferece um guia abrangente sobre o Adobe Illustrator.",
             "short": "Este curso ensina aos participantes as habilidades essenciais para criar gráficos vetoriais escaláveis.",
             "modules": [
@@ -111,8 +153,14 @@
             "flag": "Necessita de computador"
         },
         {
+            "id": 5,
             "title": "Adobe Premiere",
-            "img": "../img/courses/premeire.png",
+            "img": "../img/courses/premiere.png",
+            "imgMaior": "../img/coursesMaior/premiereMaior.png",
+            "imgProf": "../img/maria.png",
+            "prof": "Maria Santiellas",
+            "profTitulo": "Gerente de Projetos",
+            "profTexto": "Já trabalhou no iFood e em várias Startups. Também tem experiência criação de produtos e genrência de projetos.",
             "description": "Este curso de Adobe Premiere é projetado para ensinar aos participantes as habilidades essenciais para edição de vídeo profissional. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos avançados do Adobe Premiere para criar vídeos de alta qualidade com efeitos visuais, transições suaves e trilhas sonoras impactantes. Se você é um aspirante a editor de vídeo, cineasta ou entusiasta de produção de conteúdo audiovisual, este curso oferece um guia completo sobre o Adobe Premiere.",
             "modules": [
                 "Introdução ao Adobe Premiere",
@@ -129,6 +177,7 @@
             "flag": "Necessita de computador"
         },
         {
+            "id": 6,
             "title": "CorelDRAW",
             "img": "",
             "description": "Este curso de CorelDRAW é projetado para ensinar aos participantes as habilidades essenciais para a criação de ilustrações vetoriais, design gráfico e layout de página. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos do CorelDRAW para criar peças gráficas de alta qualidade para impressão e mídia digital. Se você é um designer gráfico, ilustrador ou alguém interessado em criar designs profissionais, este curso oferece um guia abrangente sobre o CorelDRAW.",
@@ -147,6 +196,7 @@
             "flag": "Necessita de computador"
         },
         {
+            "id": 7,
             "title": "Excel",
             "img": "",
             "description": "Este curso de Excel é projetado para ensinar aos participantes as habilidades essenciais para trabalhar efetivamente com planilhas eletrônicas e dados. O objetivo é capacitar os alunos a utilizar as funcionalidades avançadas do Excel para análise de dados, automação de tarefas e criação de relatórios profissionais. Se você é um profissional de negócios, estudante ou alguém que deseja aprimorar suas habilidades em planilhas, este curso oferece um guia completo sobre o Excel.",
@@ -165,6 +215,7 @@
             "flag": "Necessita de computador"
         },
         {
+            "id": 8,
             "title": "Word",
             "img": "",
             "description": "Este curso de Word é projetado para ensinar aos participantes as habilidades essenciais para criar e formatar documentos de texto profissionais. O objetivo é capacitar os alunos a utilizar as ferramentas avançadas do Word para produzir documentos bem estruturados, com formatação consistente e recursos de colaboração. Se você é um profissional que trabalha com documentos, estudante ou alguém que deseja aprimorar suas habilidades no processamento de texto, este curso oferece um guia abrangente sobre o Word.",
@@ -181,6 +232,7 @@
             ]
         },
         {
+            "id": 9,
             "title": "Trello",
             "img": "",
             "description": "Este curso de Trello é projetado para ensinar aos participantes as habilidades essenciais para gerenciar projetos e tarefas de forma eficiente utilizando a plataforma Trello. O objetivo é capacitar os alunos a utilizar os recursos avançados do Trello para planejamento, colaboração e acompanhamento de projetos em equipe. Se você é um gerente de projetos, empreendedor ou alguém que busca uma melhor organização e produtividade, este curso oferece um guia completo sobre o Trello.",
@@ -199,6 +251,7 @@
             "flag": "Não necessita de computador"
         },
         {
+            "id": 10,
             "title": "E-commerce",
             "img": "../img/courses/ecommerce.png",
             "description": "Este curso de E-commerce foi desenvolvido para capacitar os participantes a criar, gerenciar e promover negócios online de sucesso. O objetivo é fornecer uma compreensão abrangente do funcionamento do comércio eletrônico, desde a seleção de produtos até a entrega aos clientes. Se você é um empreendedor, varejista ou alguém interessado em iniciar ou aprimorar um negócio online, este curso oferece um guia completo sobre o E-commerce.",
@@ -217,6 +270,7 @@
             "flag": "Necessita parcialmente de computador"
         },
         {
+            "id": 11,
             "title": "Design",
             "img": "",
             "description": "Este curso de Design é projetado para ensinar aos participantes as principais habilidades e princípios do design visual. O objetivo é capacitar os alunos a criar designs atraentes, comunicativos e funcionais em diferentes mídias e plataformas. Se você é um aspirante a designer, profissional criativo ou alguém que deseja entender os fundamentos do design, este curso oferece um guia abrangente sobre os princípios, técnicas e aplicações do design.",
@@ -234,6 +288,5 @@
             "duration": "200h",
             "flag": "Necessita parcialmente de computador"
         }
-        
     ]
 }

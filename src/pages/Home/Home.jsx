@@ -34,9 +34,14 @@ export default function Home() {
     loadData()
   },[])
 
-  const limitedCourses = courses.slice(0, 4);
+  const limitedCourses = courses.slice(0, 5);
 
   return (
+
+    <div className='container'>
+      <div>
+        {limitedCourses.map((course) => (
+
     <div>
       <section className={style.firstSection}>
         <div className='container'>
@@ -59,11 +64,13 @@ export default function Home() {
       <div className='container'>
         <h2 className='title'>Trilhas</h2>
         {limitedCourses.map((course, index) => (
+
           <TrilhaCard
-            key={index} 
+            key={course.id}
             titulo_trilha={course.title}
             paragrafo_trilha={course.short}
             imagem={course.img}
+            id={course.id}
           />
         ))}
         <button className={style.btnCenter}><Link to='/allcourses'>Ver todos os cursos</Link></button>
@@ -75,4 +82,4 @@ export default function Home() {
       </section>
     </div>
   );
-}
+}  
