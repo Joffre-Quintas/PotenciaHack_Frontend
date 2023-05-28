@@ -55,7 +55,7 @@
         {
             "id": 1,
             "title": "Redes",
-            "img": "../img/courses/redes.png",
+            "img": "../img/redes.png",
             "imgMaior": "../img/coursesMaior/redesMaior.png",
             "imgProf": "../img/thais.png",
             "prof": "Thais Quinzani",
@@ -80,7 +80,7 @@
         {
             "id": 2,
             "title": "Frontend JS",
-            "img": "../img/redes.png",
+            "img": "../img/programacao.png",
             "imgMaior": "../img/coursesMaior/frontendMaior.png",
             "imgProf": "../img/ysabella.png",
             "prof": "Ysabella Cristina",
@@ -105,7 +105,7 @@
         {
             "id": 3,
             "title": "Backend JS",
-            "img": "../img/courses/backend.png",
+            "img": "../img/back.png",
             "imgMaior": "../img/coursesMaior/backendMaior.png",
             "imgProf": "../img/joffre.png",
             "prof": "Joffre Quintas",
@@ -130,7 +130,7 @@
         {
             "id": 4,
             "title": "Adobe Illustrator",
-            "img": "../img/courses/illustrator.png",
+            "img": "../img/adobeilustrator.png",
             "imgMaior": "../img/coursesMaior/adobeilustratorMaior.png",
             "imgProf": "../img/pedro.png",
             "prof": "Pedro Alexandre",
@@ -155,12 +155,13 @@
         {
             "id": 5,
             "title": "Adobe Premiere",
-            "img": "../img/courses/premiere.png",
+            "img": "../img/adobepremier.png",
             "imgMaior": "../img/coursesMaior/premiereMaior.png",
             "imgProf": "../img/maria.png",
             "prof": "Maria Santiellas",
             "profTitulo": "Gerente de Projetos",
             "profTexto": "Já trabalhou no iFood e em várias Startups. Também tem experiência criação de produtos e genrência de projetos.",
+            "short": "Este curso ensina aos participantes as habilidades essenciais para criar gráficos vetoriais escaláveis.",
             "description": "Este curso de Adobe Premiere é projetado para ensinar aos participantes as habilidades essenciais para edição de vídeo profissional. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos avançados do Adobe Premiere para criar vídeos de alta qualidade com efeitos visuais, transições suaves e trilhas sonoras impactantes. Se você é um aspirante a editor de vídeo, cineasta ou entusiasta de produção de conteúdo audiovisual, este curso oferece um guia completo sobre o Adobe Premiere.",
             "short": "Quer aprender a editar videos? Aqui você irá se desenvolver em...",
             "modules": [
@@ -180,7 +181,7 @@
         {
             "id": 6,
             "title": "CorelDRAW",
-            "img": "",
+            "img": "../img/courses/corelDraw.png",
             "description": "Este curso de CorelDRAW é projetado para ensinar aos participantes as habilidades essenciais para a criação de ilustrações vetoriais, design gráfico e layout de página. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos do CorelDRAW para criar peças gráficas de alta qualidade para impressão e mídia digital. Se você é um designer gráfico, ilustrador ou alguém interessado em criar designs profissionais, este curso oferece um guia abrangente sobre o CorelDRAW.",
             "modules": [
                 "Introdução ao CorelDRAW",
@@ -199,7 +200,7 @@
         {
             "id": 7,
             "title": "Excel",
-            "img": "",
+            "img": "../img/courses/excel.png",
             "description": "Este curso de Excel é projetado para ensinar aos participantes as habilidades essenciais para trabalhar efetivamente com planilhas eletrônicas e dados. O objetivo é capacitar os alunos a utilizar as funcionalidades avançadas do Excel para análise de dados, automação de tarefas e criação de relatórios profissionais. Se você é um profissional de negócios, estudante ou alguém que deseja aprimorar suas habilidades em planilhas, este curso oferece um guia completo sobre o Excel.",
             "modules": [
                 "Introdução ao Excel e navegação",
@@ -218,7 +219,7 @@
         {
             "id": 8,
             "title": "Word",
-            "img": "",
+            "img": "../img/courses/word.png",
             "description": "Este curso de Word é projetado para ensinar aos participantes as habilidades essenciais para criar e formatar documentos de texto profissionais. O objetivo é capacitar os alunos a utilizar as ferramentas avançadas do Word para produzir documentos bem estruturados, com formatação consistente e recursos de colaboração. Se você é um profissional que trabalha com documentos, estudante ou alguém que deseja aprimorar suas habilidades no processamento de texto, este curso oferece um guia abrangente sobre o Word.",
             "modules": [
                 "Introdução ao Word e navegação",
@@ -235,7 +236,7 @@
         {
             "id": 9,
             "title": "Trello",
-            "img": "",
+            "img": "../img/courses/trello.png",
             "description": "Este curso de Trello é projetado para ensinar aos participantes as habilidades essenciais para gerenciar projetos e tarefas de forma eficiente utilizando a plataforma Trello. O objetivo é capacitar os alunos a utilizar os recursos avançados do Trello para planejamento, colaboração e acompanhamento de projetos em equipe. Se você é um gerente de projetos, empreendedor ou alguém que busca uma melhor organização e produtividade, este curso oferece um guia completo sobre o Trello.",
             "modules": [
                 "Introdução ao Trello e criação de quadros",
@@ -273,7 +274,7 @@
         {
             "id": 11,
             "title": "Design",
-            "img": "",
+            "img": "../img/courses/design.png",
             "description": "Este curso de Design é projetado para ensinar aos participantes as principais habilidades e princípios do design visual. O objetivo é capacitar os alunos a criar designs atraentes, comunicativos e funcionais em diferentes mídias e plataformas. Se você é um aspirante a designer, profissional criativo ou alguém que deseja entender os fundamentos do design, este curso oferece um guia abrangente sobre os princípios, técnicas e aplicações do design.",
             "modules": [
                 "Introdução ao design visual",
