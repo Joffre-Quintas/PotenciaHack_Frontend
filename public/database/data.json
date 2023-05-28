@@ -9,5 +9,27 @@
     }],
     "images":[
         "../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg","../img/capture_hackathon.jpg","../img/hackathon_ex.jpg"
+    ],
+    "users":[
+        {
+            "id": 1,
+            "name": "Joffre Quintas"
+        },
+        {
+            "id": 2,
+            "name": "Ysabella Cristina"
+        },
+        {
+            "id": 3,
+            "name": "Maria Santiellas"
+        },
+        {
+            "id": 4,
+            "name": "Thais Quinzine"
+        },
+        {
+            "id": 5,
+            "name": "Pedro Alexandre"
+        }
     ]
 }
