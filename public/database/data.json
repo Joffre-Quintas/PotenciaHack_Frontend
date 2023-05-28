@@ -25,11 +25,211 @@
         },
         {
             "id": 4,
-            "name": "Thais Quinzine"
+            "name": "Thais Quinzani"
         },
         {
             "id": 5,
             "name": "Pedro Alexandre"
         }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "title": "Redes",
+            "img": " ",
+            "description": "Este curso de redes foi montado pensando em trazer um entendimento prático de como montar uma rede local ou uma estrutura para empresas de pequeno porte. O objetivo é colocar rapidamente profissionais capacitados no mercado de trabalho de forma rápida. Mas se você não quer atuar na área mas é um curioso, também não tem problema, ele foi construído com uma linguagem simples, dinâmica e atual.",
+            "modules":[
+                "Você sabe o que é um roteador?",
+                "O que seria uma internet ponto a ponto?",
+                "Aprendendo a montar um cabo coaxial",
+                "Configurando um roteador",
+                "Montando uma rede local na sua casa",
+                "Aprenda a configurar o wifi para limitar o alcance e banda",
+                "Expandindo seus conhecimentos: Máscara de sub-rede",
+                "Topografia de rede",
+                "Estruturação de redes de uma empresa"
+            ],
+            "duration": "40h",
+            "flag": "Não necessita de computador"
+        },
+        {
+            "title": "Frontend Javascript",
+            "img": "",
+            "description": "Este curso de Frontend foi desenvolvido para proporcionar aos estudantes uma compreensão prática das habilidades necessárias para criar interfaces de usuário atraentes e funcionais. O objetivo é capacitar os participantes a construir sites interativos e responsivos, utilizando as mais recentes tecnologias front-end. Se você é um entusiasta da web ou aspirante a desenvolvedor, este curso foi projetado para fornecer uma introdução clara e acessível ao mundo do Frontend.",
+            "modules": [
+                "Introdução ao HTML",
+                "Estilizando com CSS",
+                "Fundamentos de JavaScript",
+                "Frameworks e bibliotecas front-end",
+                "Desenvolvimento responsivo",
+                "Design de interfaces de usuário",
+                "Acessibilidade na web",
+                "Otimização de desempenho",
+                "Depuração e testes"
+            ],
+            "duration": "300h",
+            "flag": "Necessita de computador"
+        },
+        {
+            "title": "Backend Javascript",
+            "img": "",
+            "description": "Este curso de Backend foi projetado para fornecer aos alunos um conhecimento prático sobre o desenvolvimento de servidores e a lógica por trás das aplicações web. O objetivo é capacitar os participantes a criar e gerenciar a parte do servidor de um site ou aplicativo, lidando com bancos de dados, segurança e escalabilidade. Se você é um aspirante a desenvolvedor web ou deseja aprimorar suas habilidades no lado do servidor, este curso oferece uma introdução completa ao mundo do Backend.",
+            "modules": [
+                "Introdução aos servidores web",
+                "Linguagens de programação para o Backend",
+                "APIs e serviços web",
+                "Bancos de dados e SQL",
+                "Segurança e autenticação",
+                "Gerenciamento de sessões e cookies",
+                "Escalabilidade e balanceamento de carga",
+                "Cache e otimização de desempenho",
+                "Deploy e gerenciamento de servidores"
+            ],
+            "duration": "300h",
+            "flag": "Necessita de computador"
+        },
+        {
+            "title": "Adobe Illustrator",
+            "img": "",
+            "description": "Este curso de Adobe Illustrator é projetado para ensinar aos participantes as habilidades essenciais para criar gráficos vetoriais escaláveis e ilustrações profissionais. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos poderosos do Adobe Illustrator para criar designs visualmente atraentes para impressão e mídia digital. Se você é um designer gráfico, ilustrador ou alguém interessado em manipular imagens e criar arte digital, este curso oferece um guia abrangente sobre o Adobe Illustrator.",
+            "modules": [
+                "Introdução ao Adobe Illustrator",
+                "Explorando as ferramentas e painéis",
+                "Trabalhando com formas e objetos",
+                "Manipulação de cores e gradientes",
+                "Utilizando efeitos e estilos",
+                "Criando ilustrações vetoriais",
+                "Design de logotipos e identidade visual",
+                "Ilustrações para mídia digital",
+                "Preparação de arquivos para impressão"
+            ],
+            "duration": "80h",
+            "flag": "Necessita de computador"
+        },
+        {
+            "title": "Adobe Premiere",
+            "img": "",
+            "description": "Este curso de Adobe Premiere é projetado para ensinar aos participantes as habilidades essenciais para edição de vídeo profissional. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos avançados do Adobe Premiere para criar vídeos de alta qualidade com efeitos visuais, transições suaves e trilhas sonoras impactantes. Se você é um aspirante a editor de vídeo, cineasta ou entusiasta de produção de conteúdo audiovisual, este curso oferece um guia completo sobre o Adobe Premiere.",
+            "modules": [
+                "Introdução ao Adobe Premiere",
+                "Importação e organização de mídia",
+                "Edição de vídeo e corte de cenas",
+                "Adição de transições e efeitos visuais",
+                "Manipulação de áudio e trilhas sonoras",
+                "Correção de cores e gradação",
+                "Animações e efeitos de texto",
+                "Exportação e compartilhamento de vídeos",
+                "Workflow e dicas de produtividade"
+            ],
+            "duration": "120h",
+            "flag": "Necessita de computador"
+        },
+        {
+            "title": "CorelDRAW",
+            "img": "",
+            "description": "Este curso de CorelDRAW é projetado para ensinar aos participantes as habilidades essenciais para a criação de ilustrações vetoriais, design gráfico e layout de página. O objetivo é capacitar os alunos a utilizar as ferramentas e recursos do CorelDRAW para criar peças gráficas de alta qualidade para impressão e mídia digital. Se você é um designer gráfico, ilustrador ou alguém interessado em criar designs profissionais, este curso oferece um guia abrangente sobre o CorelDRAW.",
+            "modules": [
+                "Introdução ao CorelDRAW",
+                "Explorando as ferramentas e painéis",
+                "Trabalhando com formas e objetos",
+                "Manipulação de cores e preenchimentos",
+                "Efeitos especiais e transparência",
+                "Texto e tipografia",
+                "Criação de ilustrações vetoriais",
+                "Layout de página e composição",
+                "Exportação de arquivos para diferentes formatos"
+            ],
+            "duration": "80h",
+            "flag": "Necessita de computador"
+        },
+        {
+            "title": "Excel",
+            "img": "",
+            "description": "Este curso de Excel é projetado para ensinar aos participantes as habilidades essenciais para trabalhar efetivamente com planilhas eletrônicas e dados. O objetivo é capacitar os alunos a utilizar as funcionalidades avançadas do Excel para análise de dados, automação de tarefas e criação de relatórios profissionais. Se você é um profissional de negócios, estudante ou alguém que deseja aprimorar suas habilidades em planilhas, este curso oferece um guia completo sobre o Excel.",
+            "modules": [
+                "Introdução ao Excel e navegação",
+                "Fórmulas e funções essenciais",
+                "Formatação de células e planilhas",
+                "Trabalhando com dados e tabelas",
+                "Gráficos e visualizações de dados",
+                "Análise de dados com filtros e classificações",
+                "Automatizando tarefas com macros",
+                "Criação de relatórios e dashboards",
+                "Integração com outras ferramentas e recursos"
+            ],
+            "duration": "40h",
+            "flag": "Necessita de computador"
+        },
+        {
+            "title": "Word",
+            "img": "",
+            "description": "Este curso de Word é projetado para ensinar aos participantes as habilidades essenciais para criar e formatar documentos de texto profissionais. O objetivo é capacitar os alunos a utilizar as ferramentas avançadas do Word para produzir documentos bem estruturados, com formatação consistente e recursos de colaboração. Se você é um profissional que trabalha com documentos, estudante ou alguém que deseja aprimorar suas habilidades no processamento de texto, este curso oferece um guia abrangente sobre o Word.",
+            "modules": [
+                "Introdução ao Word e navegação",
+                "Formatação de texto e parágrafos",
+                "Estilos e formatação consistente",
+                "Inserção de imagens e objetos",
+                "Criação de tabelas e listas",
+                "Controle de página e layout",
+                "Cabeçalhos, rodapés e numeração",
+                "Revisão e correção de texto",
+                "Colaboração e recursos avançados"
+            ]
+        },
+        {
+            "title": "Trello",
+            "img": "",
+            "description": "Este curso de Trello é projetado para ensinar aos participantes as habilidades essenciais para gerenciar projetos e tarefas de forma eficiente utilizando a plataforma Trello. O objetivo é capacitar os alunos a utilizar os recursos avançados do Trello para planejamento, colaboração e acompanhamento de projetos em equipe. Se você é um gerente de projetos, empreendedor ou alguém que busca uma melhor organização e produtividade, este curso oferece um guia completo sobre o Trello.",
+            "modules": [
+                "Introdução ao Trello e criação de quadros",
+                "Organização de listas e cartões",
+                "Atribuição de tarefas e prazos",
+                "Etiquetas, filtros e buscas",
+                "Colaboração em equipes e comunicação",
+                "Automação e integrações com outras ferramentas",
+                "Gestão de projetos e fluxo de trabalho",
+                "Relatórios e análise de desempenho",
+                "Dicas de produtividade e melhores práticas"
+            ],
+            "duration": "20h",
+            "flag": "Não necessita de computador"
+        },
+        {
+            "title": "E-commerce",
+            "img": "",
+            "description": "Este curso de E-commerce foi desenvolvido para capacitar os participantes a criar, gerenciar e promover negócios online de sucesso. O objetivo é fornecer uma compreensão abrangente do funcionamento do comércio eletrônico, desde a seleção de produtos até a entrega aos clientes. Se você é um empreendedor, varejista ou alguém interessado em iniciar ou aprimorar um negócio online, este curso oferece um guia completo sobre o E-commerce.",
+            "modules": [
+                "Introdução ao E-commerce",
+                "Planejamento de um negócio online",
+                "Seleção de produtos e fornecedores",
+                "Criação de uma loja virtual",
+                "Gestão de estoque e logística",
+                "Processamento de pagamentos online",
+                "Marketing e promoção de uma loja virtual",
+                "Atendimento ao cliente e suporte",
+                "Análise de desempenho e otimização"
+            ],
+            "duration": "160h",
+            "flag": "Necessita parcialmente de computador"
+        },
+        {
+            "title": "Design",
+            "img": "",
+            "description": "Este curso de Design é projetado para ensinar aos participantes as principais habilidades e princípios do design visual. O objetivo é capacitar os alunos a criar designs atraentes, comunicativos e funcionais em diferentes mídias e plataformas. Se você é um aspirante a designer, profissional criativo ou alguém que deseja entender os fundamentos do design, este curso oferece um guia abrangente sobre os princípios, técnicas e aplicações do design.",
+            "modules": [
+                "Introdução ao design visual",
+                "Princípios de usabilidade e experiência do usuário",
+                "Cores, tipografia e elementos gráficos",
+                "Composição e layout",
+                "Design de logotipos e identidade visual",
+                "Design de interfaces de usuário",
+                "Design para mídia digital",
+                "Design editorial e de impressos",
+                "Aplicações e tendências do design"
+            ],
+            "duration": "200h",
+            "flag": "Necessita parcialmente de computador"
+        }
+        
     ]
 }
