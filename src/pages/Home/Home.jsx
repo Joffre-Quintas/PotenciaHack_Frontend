@@ -24,9 +24,9 @@ export default function Home() {
   return (
     <div className='container'>
       <div>
-        {limitedCourses.map((course) => (
+        {limitedCourses.map((course, index) => (
           <TrilhaCard
-            key={course.id} 
+            key={index} 
             titulo_trilha={course.title}
             paragrafo_trilha={course.short}
             imagem={course.img}
