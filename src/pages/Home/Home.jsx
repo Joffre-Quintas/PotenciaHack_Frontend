@@ -42,8 +42,8 @@ export default function Home() {
         <div className='container'>
           <h1>Participe de um Hacka</h1>
           <div className={style.btnActions}>
-            <button>Inscreva-se</button>
-            <button>Já sou aluno</button>
+            <button><Link to={'/cadastro'}>Inscreva-se</Link></button>
+            <button><Link to={'/login'}>Já sou aluno</Link></button>
           </div>
         </div>
       </section>
@@ -66,7 +66,7 @@ export default function Home() {
             imagem={course.img}
           />
         ))}
-        <Link to='/allcourses'><button className={style.btnCenter}>Ver todos os cursos</button></Link>
+        <button className={style.btnCenter}><Link to='/allcourses'>Ver todos os cursos</Link></button>
       </div>
       <section>
         <h2>Como funciona</h2>
