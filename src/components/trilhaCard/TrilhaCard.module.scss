@@ -13,6 +13,7 @@
     .div_direita{
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
         width: 100%;
         margin: 0 0.4rem;
         // padding: 0.5rem;

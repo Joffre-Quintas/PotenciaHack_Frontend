@@ -27,22 +27,6 @@
         display: flex;
         gap: 2rem;
 
-
-        & button:nth-child(1) {
-            padding: .5rem 1rem;
-            border: 3px solid variables.$primary-color;
-            border-radius: 1rem;
-            color: variables.$primary-color;
-            background-color: #fff;
-        }
-        & button:nth-child(2) {
-            padding: .5rem 1rem;
-            border: none;
-            border-radius: 1rem;
-            color: white;
-            background-color: variables.$primary-color;
-        }
-
         & button:hover {
             opacity: 0.9;
         }

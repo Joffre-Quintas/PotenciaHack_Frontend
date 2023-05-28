@@ -37,18 +37,13 @@ export default function Home() {
   const limitedCourses = courses.slice(0, 5);
 
   return (
-
-    <div className='container'>
-      <div>
-        {limitedCourses.map((course) => (
-
     <div>
       <section className={style.firstSection}>
         <div className='container'>
           <h1>Participe de um Hacka</h1>
           <div className={style.btnActions}>
-            <button><Link to={'/cadastro'}>Inscreva-se</Link></button>
-            <button><Link to={'/login'}>Já sou aluno</Link></button>
+            <button className='btnVariableNoFill'><Link to={'/cadastro'}>Inscreva-se</Link></button>
+            <button className='btnDefault'><Link to={'/login'}>Já sou aluno</Link></button>
           </div>
         </div>
       </section>
@@ -64,7 +59,6 @@ export default function Home() {
       <div className='container'>
         <h2 className='title'>Trilhas</h2>
         {limitedCourses.map((course, index) => (
-
           <TrilhaCard
             key={course.id}
             titulo_trilha={course.title}
@@ -75,11 +69,12 @@ export default function Home() {
         ))}
         <button className={style.btnCenter}><Link to='/allcourses'>Ver todos os cursos</Link></button>
       </div>
-      <section>
+      <section className='container'>
         <h2 className='title'>Como funciona</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio perspiciatis dolore ratione consectetur voluptatum eum architecto dolorem, quaerat odit, dolorum iusto vitae est ad, pariatur iste. Possimus laborum eaque pariatur mollitia voluptates praesentium eos, maxime fuga aut velit alias placeat dicta numquam aperiam, atque quam est! Molestias, itaque perspiciatis!</p>
         <button className={style.btnCenter}>Saiba mais</button>
       </section>
     </div>
   );
-}  
+  
+}
