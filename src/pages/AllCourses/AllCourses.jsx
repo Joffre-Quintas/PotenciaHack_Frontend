@@ -24,7 +24,7 @@ export default function AllCourses() {
                     <p>Aqui você encontra uma lista com todos os cursos que oferecemos e uma explicação de cada trilha que você pode desenvolver a partir dos cursos.</p>
                 </div>
                 {listCourses && listCourses.map((course, index) => (
-                    <SimpleCardCourse key={index} title={course.title} description={course.description} flag={course.flag} img={course.img}/>
+                    <SimpleCardCourse key={index} title={course.title} description={course.description} flag={course.flag} img={course.img} id={course.id}/>
                 ))}                
             </div>
         </div>

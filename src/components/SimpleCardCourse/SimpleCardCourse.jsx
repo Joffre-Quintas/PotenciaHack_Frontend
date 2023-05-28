@@ -1,4 +1,5 @@
 import style from './SimpleCardCourse.module.scss';
+import { Link } from 'react-router-dom';
 
 export default function SimpleCardCourse(props) {
     return(
@@ -10,8 +11,8 @@ export default function SimpleCardCourse(props) {
                 <p className={style.flag}><span className={style.rect}></span>{props.flag}</p>
             </div>
             <div className={style.btnActions}>
-                <button>Saiba Mais</button>
-                <button>Inscreva-se</button>
+                <button className='btnVariableNoFill'><Link to={`/trilhaespecifica/${props.id}`}>Saiba Mais</Link></button>
+                <button className='btnDefault'>Matricule-se</button>
             </div>
             <hr />
         </div>

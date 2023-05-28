@@ -1,10 +1,13 @@
+@use '../../variables';
+
 .formLogin {
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 40%;
     min-width: 330px;
     padding: 1rem;
-    background-color: #777;
+    background-image: linear-gradient(130deg, #4802F7, variables.$primary-color);
     border-radius: 1rem;
+    color: #fff;
 
     & > h1 {
         text-align: center;
@@ -34,7 +37,6 @@
     }
     & div:nth-child(4) {
         margin: 1rem auto;
-        width: fit-content;
     }
 }
 .loginAPI {
@@ -47,4 +49,8 @@
         gap: 1rem;
         padding: 1rem;
     }
+    
+}
+.actions {
+    width: 100%;
 }
