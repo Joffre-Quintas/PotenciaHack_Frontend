@@ -118,6 +118,7 @@ export default function Cadastro() {
         <Link to="/home">
           <button>Home</button>
         </Link>
+        
       </form>
     </div>
   );
