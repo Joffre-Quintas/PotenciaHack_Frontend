@@ -1,0 +1,51 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin-top: 2rem;
+  }
+  
+  .pergunta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .pergunta p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .bolinhas-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bolinha {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .selected {
+    background-color: #ff6b6b;
+  }
+  
+  .large {
+    width: 15px;
+    height: 15px;
+  }
+  .medium {
+    width: 12px;
+    height: 12px;
+  }
+  .small {
+    width: 10px;
+    height: 10px;
+  }
+  

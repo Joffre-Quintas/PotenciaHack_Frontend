@@ -5,7 +5,7 @@ import Input from '../../components/Input/Input';
 import { AiFillEye } from 'react-icons/ai'
 import { AiFillEyeInvisible } from 'react-icons/ai'
 import { Link } from 'react-router-dom';
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useUserAuthenticationContext } from '../../context/UserContext';
 import jwt_decode from 'jwt-decode';
 
@@ -14,7 +14,7 @@ import imgFacebook from '../../assets/img/facebook.png'
 import Header from '../../components/header/Header';
 
 export default function Login() {
-    const {setUser} = useUserAuthenticationContext();
+    const { setUser } = useUserAuthenticationContext();
     const [type, setType] = useState('password')
     const [form, setForm] = useState({
         user: '',
@@ -24,7 +24,7 @@ export default function Login() {
     // function handleCallbackResponse(response) {
     //     var userObject = jwt_decode(response.credential);
     //     setUser(userObject)
-        
+
     // }
 
     function handleSubmit(e) {
@@ -32,7 +32,7 @@ export default function Login() {
         console.log(form)
     }
 
-    
+
     function handleUpdateInput(e) {
         const fieldCamp = e.target.name
         const fieldValue = e.target.value
@@ -65,6 +65,7 @@ export default function Login() {
     return (
         <div className='container'>
             {/* <Header/> */}
+
             <form className={style.formLogin}>
                 <h1>Login</h1>
                 <Input label='Usuário' type='text' name='user' id='user' onChange={(e) => handleUpdateInput(e)} />
@@ -86,6 +87,9 @@ export default function Login() {
                 <div>
                     <div id="google"></div>
                     <img src={imgFacebook} alt="icon Facebook" />
+                    <Link to="/testeperfil">
+                        <button>Teste Perfil</button>
+                    </Link>
                 </div>
             </div>
         </div>
